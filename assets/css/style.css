@@ -1,0 +1,165 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  padding: 45px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+.menu-nav li:not(:first-child) {
+  margin-left: 40px;
+}
+.menu-nav li a {
+  color: #4f5665;
+}
+.auth-btns {
+}
+.auth-btns .btn {
+}
+.auth-btns .btn-simple {
+  color: #000;
+  font-weight: 600;
+}
+.auth-btns .btn-outline {
+  display: inline-block;
+  padding: 10px 45px;
+  color: #7f67ce;
+  border: 1px solid #7f67ce;
+  border-radius: 30px;
+  transition: all 0.3s;
+  margin-left: 30px;
+}
+.auth-btns .btn-outline:hover {
+  color: #fff;
+  background-color: #7f67ce;
+}
+
+/* intro section */
+
+#intro {
+  padding: 100px 0 0;
+}
+
+#intro h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+}
+#intro p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0 50px;
+}
+
+.btn-solid {
+  color: white;
+  background-color: #7f67ce;
+  border: 1px solid #7f67ce;
+  border-radius: 5px;
+  padding: 15px 60px;
+  transition: all 0.3s;
+}
+.btn-solid:hover {
+  color: #7f67ce;
+  background-color: transparent;
+}
+
+/* info section */
+
+#info {
+  position: relative;
+  top: 78px;
+}
+
+.info-wrapper {
+  padding: 35px 0px;
+  box-shadow: 1px 2px 6px 1px #0000002b;
+  background-color: white;
+}
+#info .info-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+#info .info-item.mid {
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+}
+/* .info-item:not(:last-child) {
+  border-right: 1px solid #ccc;
+} */
+
+#info .info-item img {
+  margin-right: 35px;
+}
+
+#info .info-item span {
+  font-weight: bold;
+}
+#info .info-item .secondary {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* features */
+
+#features {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+}
+
+#features h3 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+}
+#features p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.feature-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.feature-list li {
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+}
+.feature-list li::before {
+  content: url("../icons/check.svg");
+  margin-right: 10px;
+}
+
+#features .feature-info-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  flex-direction: column;
+}
