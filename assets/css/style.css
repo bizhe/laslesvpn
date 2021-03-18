@@ -9,6 +9,11 @@ a:hover {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 /* header */
 
 header {
@@ -35,15 +40,12 @@ header {
 .menu-nav li a {
   color: #4f5665;
 }
-.auth-btns {
-}
-.auth-btns .btn {
-}
+
 .auth-btns .btn-simple {
   color: #000;
   font-weight: 600;
 }
-.auth-btns .btn-outline {
+.btn-outline {
   display: inline-block;
   padding: 10px 45px;
   color: #7f67ce;
@@ -52,7 +54,7 @@ header {
   transition: all 0.3s;
   margin-left: 30px;
 }
-.auth-btns .btn-outline:hover {
+.btn-outline:hover {
   color: #fff;
   background-color: #7f67ce;
 }
@@ -142,11 +144,6 @@ header {
   font-size: 16px;
   line-height: 30px;
 }
-.feature-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 .feature-list li {
   font-size: 14px;
   line-height: 30px;
@@ -162,4 +159,146 @@ header {
   justify-content: flex-end;
   height: 100%;
   flex-direction: column;
+}
+
+/* plans section */
+
+#plans {
+  padding: 60px 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+}
+.title-desc {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan-item {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+.plan-item h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.plan-item h5 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.plan-item .btn-outline {
+  margin: 0;
+}
+
+.plan-list li {
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+}
+.plan-list li::before {
+  content: url("../icons/simple-check.svg");
+  margin-right: 10px;
+}
+
+/* network section */
+
+#network {
+  padding-bottom: 60px;
+}
+
+/* brands section */
+
+#brands {
+}
+
+#brands .img-wrapper {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+
+#subscribe {
+  position: relative;
+  top: 113px;
+}
+.subscribe-wrapper {
+  background-color: #fff;
+  box-shadow: 1px 2px 6px 1px #0000002b;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe-text {
+}
+.subscribe-text h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.subscribe-text p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.subscribe-btn-box {
+}
+.subscribe-btn-box .btn-subscribe {
+}
+
+/* links footer */
+
+#link-footer {
+  padding: 150px 0 100px;
+  background-color: #f8f8f8;
+}
+
+.footer-info {
+}
+.footer-info .footer-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.footer-info .footer-copyright {
+  font-size: 16px;
+  line-height: 30px;
+  color: #afb5c0;
+  margin-top: 20px 0;
+}
+
+#link-footer h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer-list li {
+  margin-top: 10px;
+}
+.footer-list li a {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
 }
