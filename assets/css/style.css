@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -14,10 +18,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 /* header */
 
 header {
-  padding: 45px 0;
+  padding: 2.8125rem 0;
 }
 
 .logo {
@@ -35,7 +40,7 @@ header {
   margin: 0;
 }
 .menu-nav li:not(:first-child) {
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 .menu-nav li a {
   color: #4f5665;
@@ -52,7 +57,7 @@ header {
   border: 1px solid #7f67ce;
   border-radius: 30px;
   transition: all 0.3s;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .btn-outline:hover {
   color: #fff;
@@ -62,18 +67,18 @@ header {
 /* intro section */
 
 #intro {
-  padding: 100px 0 0;
+  padding: 10rem 0 0;
 }
 
 #intro h1 {
   font-weight: 500;
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 3.125rem;
+  line-height: 4.375rem;
 }
 #intro p {
-  font-size: 16px;
-  line-height: 30px;
-  margin: 20px 0 50px;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  margin: 1.25rem 0 3.125rem;
 }
 
 .btn-solid {
@@ -81,7 +86,7 @@ header {
   background-color: #7f67ce;
   border: 1px solid #7f67ce;
   border-radius: 5px;
-  padding: 15px 60px;
+  padding: 0.9375rem 3.75rem;
   transition: all 0.3s;
 }
 .btn-solid:hover {
@@ -97,7 +102,7 @@ header {
 }
 
 .info-wrapper {
-  padding: 35px 0px;
+  padding: 2.1875rem 0px;
   box-shadow: 1px 2px 6px 1px #0000002b;
   background-color: white;
 }
@@ -105,19 +110,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
 }
 #info .info-item.mid {
   border: 1px solid #ccc;
   border-top: none;
   border-bottom: none;
 }
-/* .info-item:not(:last-child) {
-  border-right: 1px solid #ccc;
-} */
 
 #info .info-item img {
-  margin-right: 35px;
+  margin-right: 2.1875rem;
 }
 
 #info .info-item span {
@@ -125,33 +127,33 @@ header {
 }
 #info .info-item .secondary {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* features */
 
 #features {
   background-color: #f8f8f8;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 #features h3 {
   font-weight: 500;
-  font-size: 35px;
-  line-height: 50px;
+  font-size: 2.1875rem;
+  line-height: 3.125rem;
 }
 #features p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
 }
 .feature-list li {
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
   display: flex;
 }
 .feature-list li::before {
   content: url("../icons/check.svg");
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 #features .feature-info-wrapper {
@@ -164,24 +166,24 @@ header {
 /* plans section */
 
 #plans {
-  padding: 60px 0;
+  padding: 3.75rem 0;
 }
 
 .title {
   font-weight: 500;
-  font-size: 35px;
-  line-height: 50px;
+  font-size: 2.1875rem;
+  line-height: 3.125rem;
   text-align: center;
 }
 .title-desc {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .plan-item {
-  padding: 50px;
+  padding: 3.125rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -190,16 +192,16 @@ header {
 }
 .plan-item h6 {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
-  margin: 30px 0;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  margin: 1.875rem 0;
 }
 .plan-item h5 {
   font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
 }
 
 .plan-item .btn-outline {
@@ -207,25 +209,22 @@ header {
 }
 
 .plan-list li {
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
   display: flex;
 }
 .plan-list li::before {
   content: url("../icons/simple-check.svg");
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 /* network section */
 
 #network {
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 /* brands section */
-
-#brands {
-}
 
 #brands .img-wrapper {
   width: 150px;
@@ -243,22 +242,21 @@ header {
 .subscribe-wrapper {
   background-color: #fff;
   box-shadow: 1px 2px 6px 1px #0000002b;
-  padding: 40px 50px;
+  padding: 2.5rem 3.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.subscribe-text {
-}
+
 .subscribe-text h2 {
   font-weight: 500;
-  font-size: 30px;
-  line-height: 40px;
-  margin-bottom: 20px;
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.25rem;
 }
 .subscribe-text p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
 }
 .subscribe-btn-box {
 }
@@ -268,7 +266,7 @@ header {
 /* links footer */
 
 #link-footer {
-  padding: 150px 0 100px;
+  padding: 9.375rem 0 6.25rem;
   background-color: #f8f8f8;
 }
 
@@ -276,29 +274,106 @@ header {
 }
 .footer-info .footer-desc {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  margin: 20px 0;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  margin: 1.25rem 0;
 }
 
 .footer-info .footer-copyright {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
   color: #afb5c0;
-  margin-top: 20px 0;
+  margin-top: 1.25rem 0;
 }
 
 #link-footer h5 {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
 
 .footer-list li {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .footer-list li a {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
   color: #4f5665;
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+
+  header .logo {
+    margin-right: auto;
+  }
+
+  .menu-nav {
+    margin: 0.9375rem 0;
+  }
+
+  #intro {
+    padding: 0;
+  }
+
+  .plan-item {
+    padding: 1.125rem;
+  }
+
+  #brands .img-wrapper {
+    width: 100px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 13px;
+  }
+
+  header .logo {
+    margin: 0 auto;
+  }
+
+  .menu-nav li:not(:first-child) {
+    margin-left: 2rem;
+  }
+
+  #intro img {
+    margin-top: 1.5625rem;
+  }
+
+  #info .info-item.mid {
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+  }
+
+  #brands .img-wrapper {
+    margin: 1.25rem auto;
+  }
+
+  .plan-item {
+    padding: 3.125rem;
+  }
+
+  #subscribe {
+    top: 60px;
+  }
+
+  .subscribe-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .subscribe-text p {
+    margin-bottom: 1.875rem;
+  }
+
+  #link-footer {
+    padding: 7.25rem 0 3.75rem;
+  }
+
+  .col-md-4 .plan-item:nth-child(2n + 0) {
+    margin: 30px 0;
+  }
 }
