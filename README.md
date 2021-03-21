@@ -1,6 +1,6 @@
 # LaslesVPN
 
-## P316 frontend (HTML + CSS)
+## Code Academy Class - P511 Front End (HTML + CSS)
 
 ## https://bizhe.github.io/laslesvpn/
 
