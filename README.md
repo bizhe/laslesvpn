@@ -1,6 +1,4 @@
-# laslesvpn
-
-# Carbets 
+# LaslesVPN
 
 ## P316 frontend (HTML + CSS)
 
